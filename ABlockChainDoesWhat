@@ -13,6 +13,9 @@ A Blochain Does That???
     Most of you probably hear of the Blockchain when you heard about bitcoins.
     But it can be *a lot more* than just bitcoins.
     To understand that we will look into how it works
+    When ?
+    Why ?
+    How ?
 
 ----
 
@@ -37,19 +40,39 @@ When ?
 
 ----
 
-:data-y: r1000
+:data-y: r90
 
-...pan...
+Why ?
 =========
+
+.. image:: images/nocentralauth.jpg
 
 .. note::
 
+    No dependancies on *trusted third parties*
+    What is it ?
 
 ----
 
-:data-rotate: 90
+:data-y: r200
 
-...rotate...
+What ?
+============
+
+.. image:: images/blockchaindilbert.jpg
+
+.. note::
+
+    Open collective book. Fully distributed over the network
+    Solve :
+      - Can't lie on what you own
+      - Prevent double spending
+
+----
+
+:data-y: r500
+
+How ?
 ============
 
 .. note::
@@ -60,17 +83,6 @@ When ?
 :data-x: r0
 :data-y: r500
 :data-scale: 0.1
-
-...and zoom!
-============
-
-.. note::
-
-
-----
-
-:data-x: r-800
-:data-scale: 1
 
 But Prezi is a GUI
 ==================
