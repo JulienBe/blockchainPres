@@ -1,0 +1,216 @@
+:title: A Blockchain Does That???
+:data-transition-duration: 1500
+
+----
+
+A Blochain Does That???
+=======================
+
+.. image:: images/bitcoinblockchainlogo.png
+
+.. note::
+
+    Most of you probably hear of the Blockchain when you heard about bitcoins.
+    But it can be *a lot more* than just bitcoins.
+    To understand that we will look into how it works
+
+----
+
+When ?
+========================
+
+2008, the whitepaper, by he/she/they
+
+.. image:: images/satoshinakamoto.jpg
+
+.. note::
+
+    Ok so, this is an interesting *origin story*
+    In 2008, an guy, using the nickname of Satoshi Nakamoto, published the *white paper*
+    His *identity* has been the subject of a lot of *investigations and speculations* but it remains *unknown to this day*
+    He was active in the community until the end of 2010 and in spring 2011 declared that he *moved on to other things*
+
+    Note:  First version of bitcoin software : 2009
+
+----
+
+:data-y: r1000
+
+...pan...
+=========
+
+.. note::
+
+
+----
+
+:data-rotate: 90
+
+...rotate...
+============
+
+.. note::
+
+
+----
+
+:data-x: r0
+:data-y: r500
+:data-scale: 0.1
+
+...and zoom!
+============
+
+.. note::
+
+
+----
+
+:data-x: r-800
+:data-scale: 1
+
+But Prezi is a GUI
+==================
+
+.. note::
+
+----
+
+:id: ThreeD
+:data-y: r1200
+:data-rotate-x: 180
+
+In three dimensions!
+====================
+
+.. note::
+
+----
+
+:data-x: r800
+
+...and manual positioning
+=========================
+
+.. note::
+
+
+----
+
+:id: thequestion
+:data-x: r0
+:data-y: r-1200
+
+*Is there no solution?*
+=======================
+
+Of course there is!
+
+.. note::
+
+    What would be the point of this slide show if I didn't have a solution?
+    Duh!
+
+----
+
+:data-rotate-y: 180
+:data-scale: 3
+:data-x: r-2500
+:data-y: r0
+
+Introducing **Hovercraft!**
+===========================
+
+.. note::
+
+    TADA!
+
+----
+
+:data-x: r-3000
+:data-scale: 1
+
+reStructuredText
+----------------
+
+plus
+....
+
+impress.js
+----------
+
+plus
+....
+
+impressConsole.js
+-----------------
+
+plus
+....
+
+positioning!
+------------
+
+----
+
+:data-y: r-1200
+
+Position slides
+===============
+
+* Automatically!
+* Absolutely!
+* Relative to the previous slide!
+* Along an SVG path!
+
+
+.. note::
+
+    That SVG path support was a lot of work. And all I used it for was to
+    position the slides in circles.
+
+----
+
+Presenter console!
+==================
+
+* A view of the current slide
+* A view of the next slide
+* Your notes
+* A clock
+* A timer
+
+.. note::
+
+    You found the presenter console already!
+
+----
+
+**Hovercraft!**
+===============
+
+
+The merge of convenience and cool!
+
+.. note::
+
+    A slogan: The ad-mans best friend!
+
+----
+
+:data-x: 0
+:data-y: 2500
+:data-z: 4000
+:data-rotate-x: 90
+
+**Hovercraft!**
+===============
+
+On Github:
+
+https://github.com/regebro/hovercraft
+
+.. note::
+
+    Fork and contribute!
+
