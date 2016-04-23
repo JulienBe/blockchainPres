@@ -63,10 +63,13 @@ What ?
 
 .. note::
 
-    Open collective book. Fully distributed over the network
+    Contains the history of every transaction.
+    Open collective book. Fully distributed over the network. Other word : distributed ledger, transaction database, ...
+    Open as in everyone who as access to it can read it.
     Solve :
       - Can't lie on what you own
       - Prevent double spending
+    Interesting note : No one can control it
 
 ----
 
@@ -75,8 +78,18 @@ What ?
 How ?
 ============
 
+0. $A -> B
+1. Transaction set (Block)
+2. Network validation
+3. Block added
+4. $B
+
 .. note::
 
+    A set of transactions will go into a Block
+    This block will mined to get validated
+    When it is validated, it is added to the chain.
+    At this point, it is public, and can't be removed
 
 ----
 
@@ -84,10 +97,17 @@ How ?
 :data-y: r500
 :data-scale: 0.1
 
-But Prezi is a GUI
+Ok, but how ?
 ==================
 
+- Programmable token
+- Blocks
+- Mining
+- Add to chain
+
 .. note::
+
+    block chain uses programmable token. IE bitcoins
 
 ----
 
