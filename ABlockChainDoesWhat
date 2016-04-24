@@ -63,9 +63,12 @@ What ?
 
 .. note::
 
-    Contains the history of every transaction.
-    Open collective book. Fully distributed over the network. Other word : distributed ledger, transaction database, ...
+    Eventually consistent, distribued, database
     Open as in everyone who as access to it can read it.
+    
+    For bitcoin : 
+    Contains the history of every transaction.
+    
     Solve :
       - Can't lie on what you own
       - Prevent double spending
@@ -75,13 +78,13 @@ What ?
 
 :data-y: r500
 
-How ?
+Example ?
 ============
 
 0. $A -> B
-1. Transaction set (Block)
-2. Network validation
-3. Block added
+1. *Transaction set (Block)*
+2. *Network validation*
+3. *Block added*
 4. $B
 
 .. note::
@@ -90,6 +93,8 @@ How ?
     This block will mined to get validated
     When it is validated, it is added to the chain.
     At this point, it is public, and can't be removed
+
+    Let's zoom in
 
 ----
 
@@ -100,36 +105,73 @@ How ?
 Ok, but how ?
 ==================
 
+- Block
+- Distributed Consensus
 - Programmable token
-- Blocks
 - Mining
-- Add to chain
 
 .. note::
 
-    block chain uses programmable token. IE bitcoins
+    .
 
 ----
 
 :id: ThreeD
-:data-y: r1200
+:data-y: r800
 :data-rotate-x: 180
+:data-scale: 0.1
 
-In three dimensions!
-====================
+Block - Transaction Set
+=======================
+
+- Header
+- Hash
+- Merkle Root
+
+.. image:: images/simplifiedblockchain.svg
 
 .. note::
+
+    Header : 
+    Hash :
 
 ----
 
-:data-x: r800
+:data-x: r-8.5
+:data-y: r-9
+:data-scale: 0.015
 
-...and manual positioning
-=========================
+==============================
+
+.. image:: images/merkle-tree.jpg
 
 .. note::
 
+    no notes
 
+----
+
+:data-x: r0
+:data-y: r500
+:data-scale: 0.1
+
+Ok, but how ?
+==================
+
+- Block
+- Distributed Consensus
+- Programmable token
+- Mining
+
+.. note::
+
+    .
+
+----
+
+:id: ThreeD
+:data-y: r800
+:data-rotate-x: 180
 ----
 
 :id: thequestion
