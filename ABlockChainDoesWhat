@@ -10,13 +10,17 @@ A Blochain Does That???
 
 .. note::
 
-    Most of you probably hear of the Blockchain when you heard about bitcoins.
+    Most of you probably heard of the Blockchain when you heard about bitcoins.
+
     But it can be *a lot more* than just bitcoins.
+
     To understand that we will look into how it works
+
     Lets start with :
-    When ?
-    Why ?
-    How ?
+
+    - When ?
+    - Why ?
+    - How ?
 
 ----
 
@@ -30,9 +34,13 @@ When ?
 .. note::
 
     interesting *origin story*
+
     2008, whitepaper, satoshi
+
     Identity - *investigations and speculations* - unknown
+
     Active in the community until the end of 2010
+
     Spring 2011 declared that he *moved on to other things*
     
     Mined early blocks. +- 1 million unspent bitcoins. nov 2013 : exchange rate : 1000/1
@@ -51,6 +59,7 @@ Why ?
 .. note::
 
     No dependancies on *trusted third parties*
+
     What is it ?
 
 ----
@@ -65,12 +74,15 @@ What ?
 .. note::
 
     Eventually consistent, distribued, database
+
     Open as in everyone who as access to it can read it.
     
     For bitcoin : 
+
     Contains the history of every transaction.
     
     Solve :
+
       - Can't lie on what you own
       - Prevent double spending
       
@@ -92,8 +104,11 @@ Example ?
 .. note::
 
     A set of transactions will go into a Block
+
     This block will mined to get validated
+
     When it is validated, it is added to the chain.
+
     At this point, it is public, and can't be removed
 
     Let's zoom in
@@ -104,17 +119,16 @@ Example ?
 :data-y: r500
 :data-scale: 0.1
 
-Ok, but how ?
+Blockchain + ?
 ==================
 
 - Block
 - Distributed Consensus
-- Programmable token
 - Mining
 
 .. note::
 
-    .
+    What makes the blockchain possible.
 
 ----
 
@@ -122,7 +136,7 @@ Ok, but how ?
 :data-rotate-x: 180
 :data-scale: 0.1
 
-Block - Transaction Set
+BLOCK : Transaction Set
 ==================================================================================================================
 
 - Header
@@ -135,16 +149,18 @@ Block - Transaction Set
 .. note::
 
     Header : Version, **hashPrevBlock**, **hasMerkleRoot**, Time, Bits, Nonce
+
     Hash of Previous block : hence the chain part
+
     Current block count : {"blockcount":409304}
 
 ----
 
-:data-x: r-10.5
+:data-x: r-14
 :data-y: r-9
 :data-scale: 0.015
 
-Tree
+BLOCK : Tree
 ==============================================================================================================================
 
 
@@ -156,20 +172,41 @@ Tree
 
 ----
 
-:data-x: r800
+:data-x: r400
 :data-scale: 0.1
 
-Block - Transaction Set
+CONSENSUS : Ordering
 =================================================================================================================================
 
-- Header¬
-- Hash¬
-- List of transactions¬
-- Merkle Root¬
-- Answer
 
-.. image:: images/simplifiedblockchain.svg
+.. image:: images/double_spend.png
 
 .. note::
 
-    .
+    Proof of work.
+
+----
+
+:data-x: r400
+
+MINING : Roll the dice
+======================
+
+.. image:: images/rolling_dice.png
+   :width: 1200em
+   :align: left
+
+.. note::
+    double SHA-256 hash of : 
+    
+    - string made of the pending facts, merkle root ?
+    - identifier of the previous block
+    - random string
+    
+    A node wins if their hash contains at least n leading zeroes.
+
+    Tests lots of string. 
+
+    Get the fees
+
+
