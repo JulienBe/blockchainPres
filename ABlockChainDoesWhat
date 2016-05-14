@@ -13,6 +13,7 @@ A Blochain Does That???
     Most of you probably hear of the Blockchain when you heard about bitcoins.
     But it can be *a lot more* than just bitcoins.
     To understand that we will look into how it works
+    Lets start with :
     When ?
     Why ?
     How ?
@@ -72,6 +73,7 @@ What ?
     Solve :
       - Can't lie on what you own
       - Prevent double spending
+      
     Interesting note : No one can control it
 
 ----
@@ -82,9 +84,9 @@ Example ?
 ============
 
 0. $A -> B
-1. *Transaction set (Block)*
-2. *Network validation*
-3. *Block added*
+1. **Transaction set (Block)**
+2. **Network validation**
+3. **Block added**
 4. $B
 
 .. note::
@@ -116,32 +118,35 @@ Ok, but how ?
 
 ----
 
-:id: ThreeD
 :data-y: r800
 :data-rotate-x: 180
 :data-scale: 0.1
 
 Block - Transaction Set
-=======================
+==================================================================================================================
 
 - Header
 - Hash
+- List of transactions
 - Merkle Root
 
 .. image:: images/simplifiedblockchain.svg
 
 .. note::
 
-    Header : 
-    Hash :
+    Header : Version, **hashPrevBlock**, **hasMerkleRoot**, Time, Bits, Nonce
+    Hash of Previous block : hence the chain part
+    Current block count : {"blockcount":409304}
 
 ----
 
-:data-x: r-8.5
+:data-x: r-10.5
 :data-y: r-9
 :data-scale: 0.015
 
-==============================
+Tree
+==============================================================================================================================
+
 
 .. image:: images/merkle-tree.jpg
 
@@ -151,143 +156,20 @@ Block - Transaction Set
 
 ----
 
-:data-x: r0
-:data-y: r500
+:data-x: r800
 :data-scale: 0.1
 
-Ok, but how ?
-==================
+Block - Transaction Set
+=================================================================================================================================
 
-- Block
-- Distributed Consensus
-- Programmable token
-- Mining
+- Header¬
+- Hash¬
+- List of transactions¬
+- Merkle Root¬
+- Answer
+
+.. image:: images/simplifiedblockchain.svg
 
 .. note::
 
     .
-
-----
-
-:id: ThreeD
-:data-y: r800
-:data-rotate-x: 180
-----
-
-:id: thequestion
-:data-x: r0
-:data-y: r-1200
-
-*Is there no solution?*
-=======================
-
-Of course there is!
-
-.. note::
-
-    What would be the point of this slide show if I didn't have a solution?
-    Duh!
-
-----
-
-:data-rotate-y: 180
-:data-scale: 3
-:data-x: r-2500
-:data-y: r0
-
-Introducing **Hovercraft!**
-===========================
-
-.. note::
-
-    TADA!
-
-----
-
-:data-x: r-3000
-:data-scale: 1
-
-reStructuredText
-----------------
-
-plus
-....
-
-impress.js
-----------
-
-plus
-....
-
-impressConsole.js
------------------
-
-plus
-....
-
-positioning!
-------------
-
-----
-
-:data-y: r-1200
-
-Position slides
-===============
-
-* Automatically!
-* Absolutely!
-* Relative to the previous slide!
-* Along an SVG path!
-
-
-.. note::
-
-    That SVG path support was a lot of work. And all I used it for was to
-    position the slides in circles.
-
-----
-
-Presenter console!
-==================
-
-* A view of the current slide
-* A view of the next slide
-* Your notes
-* A clock
-* A timer
-
-.. note::
-
-    You found the presenter console already!
-
-----
-
-**Hovercraft!**
-===============
-
-
-The merge of convenience and cool!
-
-.. note::
-
-    A slogan: The ad-mans best friend!
-
-----
-
-:data-x: 0
-:data-y: 2500
-:data-z: 4000
-:data-rotate-x: 90
-
-**Hovercraft!**
-===============
-
-On Github:
-
-https://github.com/regebro/hovercraft
-
-.. note::
-
-    Fork and contribute!
-
