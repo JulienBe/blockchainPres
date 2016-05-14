@@ -16,11 +16,11 @@ A Blochain Does That???
 
     To understand that we will look into how it works
 
-    Lets start with :
-
-    - When ?
-    - Why ?
-    - How ?
+    write :
+    - when
+    - why
+    - how
+    - what
 
 ----
 
@@ -95,7 +95,7 @@ What ?
 Example ?
 ============
 
-0. $A -> B
+0. $A -> B (A's private key and B's public key)
 1. **Transaction set (Block)**
 2. **Network validation**
 3. **Block added**
@@ -129,6 +129,8 @@ Blockchain + ?
 .. note::
 
     What makes the blockchain possible.
+
+    ADD TO BOARD
 
 ----
 
@@ -208,5 +210,10 @@ MINING : Roll the dice
     Tests lots of string. 
 
     Get the fees
+
+MINING - CONSENSUS - BLOCK => BLOCKCHAIN
+========================================
+
+
 
 
