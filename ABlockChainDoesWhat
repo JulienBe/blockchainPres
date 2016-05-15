@@ -203,7 +203,7 @@ MINING : Roll the dice
 .. note::
     double SHA-256 hash of : 
     
-    - string made of the pending facts, merkle root ?
+    - string made of the pending facts, merkle root
     - identifier of the previous block
     - random string
     
@@ -212,6 +212,8 @@ MINING : Roll the dice
     Tests lots of string. 
 
     Get the fees and/or first transaction in a block is a special transaction that starts a new coin owned by the creator of the block
+
+    The longest chain is the one with the greatest combined difficulty of all blocks
 
 MINING - CONSENSUS - BLOCK => BLOCKCHAIN
 ========================================
@@ -233,3 +235,20 @@ MINING - CONSENSUS - BLOCK => BLOCKCHAIN
     typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of
     1.2GB per year, storage should not be a problem even if the block headers must be kept in
     memory.
+
+Issues, or not
+==============
+
+- Lost coins
+- Wallet
+- Scalability
+- Breaking the crypto
+- Transaction fees doesn't take security into account
+
+.. note::
+    In the end the network will produce 21M coins, and they can be divided to the 8th decimal
+
+    Wallet stored unencrypted by default 
+
+    hp with cpu only : 25.5gh/S = 1$ / month 
+
